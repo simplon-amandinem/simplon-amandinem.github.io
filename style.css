@@ -1,0 +1,49 @@
+body {
+background-color: silver;
+text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+  background-color: lime;
+  box-shadow: 6px 6px 0px blue;
+  }
+
+h2 {
+text-align: center;
+background-color: teal;
+border: 3px black double;
+}
+
+h3 {
+background-color: aqua;
+border: 3px black double;
+}
+
+a:hover {
+color: red;
+}
+
+header {
+border: 3px teal double;
+text-align: center;
+}
+
+footer {
+border: 3px teal double;
+text-align: center;
+}
+
+strong {
+color: blue;
+}
+
+em {
+color: teal;
+font-weight:bold;
+}
+
+img {
+border: 2px black solid;
+}
