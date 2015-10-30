@@ -47,3 +47,12 @@ font-weight:bold;
 img {
 border: 2px black solid;
 }
+
+textarea {
+  height: 100px;
+  width: 400px;
+}
+
+:required {
+  background-color:blue;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>CV Amandine</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <form method ="post" action ="traitement.php">
+          <label for="nom">Quel est votre nom ?</label> : <input type="texte" name="nom" id="nom" required /> <br/>
+          <label for="prenom">Quel est votre prénom ?</label> : <input type="texte" name="prenom" id="prenom" required /> <br/>
+          <br/>
+          <label for="e-mail">Quel est votre e-mail ?</label>  : <input type="e-mail" name="e-mail" id="e-mail" required /> <br/>
+          <label for="tel">Quel votre numéro de portable ?</label> : <input type="tel" name="tel" id="tel" required /> <br/>
+          <br/>
+          <label for="message">Votre message</label> : <textarea> </textarea><br/>
+          <br/>
+          <label for="pass">Mot de passe</label> : <input type="password" name="pass" id="pass"/> <br/>
+          <br/>
+          <label for="date">Date de votre visite</label> : <input type="date" name="date" id="date" autofocus/> <br/>
+
+          <p>Etes-vous un homme ou une femme ?<br/>
+            <input type="checkbox" name="homme" id="homme"/> <label for="homme">un homme </label> <br/>
+            <input type="checkbox" name="femme" id="femme"/> <label for="femme">une femme </label> <br/>
+          <br/>
+            <input type="radio" name="age" value="medium30-40" id="medium30-40"/><label for="medium30-40">de 30 à 40 ans</label> <br/>
+            <input type="radio" name="age" value="medium40-50" id="medium40-50"/><label for="medium40-50">de 40 à 50 ans</label> <br/>
+          <br/>
+          <label for="pays">Quel pays habitez-vous ?</label> <br/>
+          <select name="pays" id="pays">
+          <option value="france">France</option>
+          <option value="espagne">Espagne</option>
+          </select>
+          <br/>
+          <br/>
+          <input type="submit" value="Envoyer !"/>
+      </form>
+      <footer>
+        <p>Souhaitez-vous consulter <a href="page2.html">mes domaines de compétences</a> ou <a href="index.html">mon parcours professionnel</a> ?</p>
+      </footer>
+  </body>
+</html>
