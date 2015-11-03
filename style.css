@@ -1,40 +1,51 @@
 body {
-background-color: silver;
+background-image: linear-gradient(lime, silver);
 text-align: justify;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
 }
-
 h1 {
   text-align: center;
   color: blue;
-  background-color: lime;
-  box-shadow: 6px 6px 0px blue;
+  background-color: turquoise;
+  box-shadow: 6px 6px 6px blue;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   }
-
 h2 {
 text-align: center;
 background-color: teal;
-border: 3px black double;
+border: 3px navy inset;
+border-radius: 30px;
+padding-top: 5px;
+padding-bottom: 5px;
+color: navy;
 }
-
 h3 {
 background-color: aqua;
-border: 3px black double;
+border: 3px black inset;
+border-radius: 30px;
+margin-left: 5px;
+padding-left: 20px;
+padding-top: 3px;
+padding-bottom: 3px;
 }
-
 a:hover {
 color: red;
 }
-
 header {
 border: 3px teal double;
 text-align: center;
+border-radius: 30px;
 }
-
 footer {
 border: 3px teal double;
 text-align: center;
+border-radius: 30px;
 }
-
 strong {
 color: blue;
 }
@@ -43,16 +54,26 @@ em {
 color: teal;
 font-weight:bold;
 }
-
 img {
-border: 2px black solid;
+border: 4px teal groove;
+border-radius: 10px;
+margin-top: 20px;
 }
-
 textarea {
   height: 100px;
   width: 400px;
 }
-
 :required {
   background-color:blue;
 }
+a{
+text-decoration: none;
+}
+img:hover {
+  box-shadow: 0 0 100px blue,
+  0 0 100px red;
+  }
+.zoom img:hover {
+  width:300px;
+  height:400px;
+  }
